@@ -1,0 +1,17 @@
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\Dydykin_Tomogram_Visualizer1.exe.config
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\Dydykin_Tomogram_Visualizer1.exe
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\Dydykin_Tomogram_Visualizer1.pdb
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\OpenTK.dll
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\OpenTK.pdb
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\OpenTK.xml
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\OpenTK.dll.config
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.csprojAssemblyReference.cache
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.Form1.resources
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.Properties.Resources.resources
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.csproj.GenerateResource.cache
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.csproj.CoreCompileInputs.cache
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.csproj.CopyComplete
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.exe
+C:\Users\Господин\source\repos\Dydykin_Tomogram_Visualizer1\Dydykin_Tomogram_Visualizer1\obj\Debug\Dydykin_Tomogram_Visualizer1.pdb
