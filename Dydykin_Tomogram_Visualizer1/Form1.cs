@@ -94,5 +94,17 @@ namespace Dydykin_Tomogram_Visualizer1
             }
             FrameCount++;
         }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            view.minimum = trackBar2.Value;
+            needReload = true;
+        }
+
+        private void trackBar3_Scroll(object sender, EventArgs e)
+        {
+            view.window = trackBar3.Value;
+            needReload = true;
+        }
     }
 }

@@ -34,15 +34,21 @@ namespace Dydykin_Tomogram_Visualizer1
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
+            this.trackBar3 = new System.Windows.Forms.TrackBar();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
             this.SuspendLayout();
             // 
             // glControl1
             // 
             this.glControl1.BackColor = System.Drawing.Color.Black;
-            this.glControl1.Location = new System.Drawing.Point(0, 51);
+            this.glControl1.Location = new System.Drawing.Point(3, 102);
             this.glControl1.Name = "glControl1";
-            this.glControl1.Size = new System.Drawing.Size(803, 400);
+            this.glControl1.Size = new System.Drawing.Size(1005, 497);
             this.glControl1.TabIndex = 0;
             this.glControl1.VSync = false;
             this.glControl1.Load += new System.EventHandler(this.glControl1_Load);
@@ -62,14 +68,14 @@ namespace Dydykin_Tomogram_Visualizer1
             // 
             this.trackBar1.Location = new System.Drawing.Point(180, 0);
             this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(608, 45);
+            this.trackBar1.Size = new System.Drawing.Size(828, 45);
             this.trackBar1.TabIndex = 2;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(3, 27);
+            this.radioButton1.Location = new System.Drawing.Point(12, 27);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(56, 17);
             this.radioButton1.TabIndex = 3;
@@ -80,7 +86,7 @@ namespace Dydykin_Tomogram_Visualizer1
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(77, 27);
+            this.radioButton2.Location = new System.Drawing.Point(12, 51);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(61, 17);
             this.radioButton2.TabIndex = 4;
@@ -88,11 +94,57 @@ namespace Dydykin_Tomogram_Visualizer1
             this.radioButton2.Text = "Texture";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
+            // trackBar2
+            // 
+            this.trackBar2.LargeChange = 50;
+            this.trackBar2.Location = new System.Drawing.Point(181, 27);
+            this.trackBar2.Maximum = 1000;
+            this.trackBar2.Minimum = -100;
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(828, 45);
+            this.trackBar2.SmallChange = 10;
+            this.trackBar2.TabIndex = 7;
+            this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
+            // 
+            // trackBar3
+            // 
+            this.trackBar3.LargeChange = 500;
+            this.trackBar3.Location = new System.Drawing.Point(180, 58);
+            this.trackBar3.Maximum = 2000;
+            this.trackBar3.Name = "trackBar3";
+            this.trackBar3.Size = new System.Drawing.Size(828, 45);
+            this.trackBar3.SmallChange = 50;
+            this.trackBar3.TabIndex = 9;
+            this.trackBar3.Value = 2000;
+            this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(126, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Minimum";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(129, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Window";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1010, 601);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.trackBar3);
+            this.Controls.Add(this.trackBar2);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.trackBar1);
@@ -102,6 +154,8 @@ namespace Dydykin_Tomogram_Visualizer1
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,6 +168,10 @@ namespace Dydykin_Tomogram_Visualizer1
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.TrackBar trackBar2;
+        private System.Windows.Forms.TrackBar trackBar3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

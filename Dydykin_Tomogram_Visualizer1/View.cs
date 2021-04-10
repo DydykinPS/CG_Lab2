@@ -28,10 +28,12 @@ namespace Dydykin_Tomogram_Visualizer1
                 return max;
             return value;
         }
+        public int minimum = 0;
+        public int window = 2000;
         Color TransferFunction(short value)
         {
-            int min = 0;
-            int max = 2000;
+            int min = minimum;
+            int max = minimum + window;
             int newVal = clamp((value - min) * 255 / (max - min), 0, 255);
             return Color.FromArgb(255, newVal, newVal, newVal);
         }
