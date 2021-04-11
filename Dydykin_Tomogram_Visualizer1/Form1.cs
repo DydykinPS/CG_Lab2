@@ -39,17 +39,20 @@ namespace Dydykin_Tomogram_Visualizer1
                 if (radioButton1.Checked)
                     view.DrawQuads(currentLayer);
                 else
-                {
-                    if (needReload)
+                    if (radioButton3.Checked)
+                     view.DrawQuadsStrp(currentLayer);
+                 else
                     {
+                        if (needReload)
+                        {
 
-                        view.generateTextureImage(currentLayer);
-                        view.Load2DTexture();
-                        needReload = false;
+                           view.generateTextureImage(currentLayer);
+                           view.Load2DTexture();
+                           needReload = false;
+                        }
+                        view.DrawTexture();
                     }
-                    view.DrawTexture();
-                }
-                glControl1.SwapBuffers();
+                    glControl1.SwapBuffers();
             }
         }
 
